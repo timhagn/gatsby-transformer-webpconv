@@ -2,7 +2,7 @@
 import { graphql } from 'gatsby'
 
 export const gatsbyImageWebpConvFixed = graphql`
-  fragment GatsbyImageWebpConvFixed on ImageWebpConvFixed {
+  fragment GatsbyImageWebpConvFixed on imageWebpConvFixed {
     base64
     width
     height

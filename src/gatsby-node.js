@@ -2,7 +2,7 @@ const fs = require(`fs-extra`)
 
 exports.setFieldsOnGraphQLNodeType = require(`./extend-node-type`)
 
-export const onPreExtractQueries = async ({ store, getNodesByType }) => {
+const onPreExtractQueries = async ({ store, getNodesByType }) => {
   const program = store.getState().program
 
   // Check if there are any ImageWebpConv nodes. If so add fragments for ImageWebpConv.
@@ -101,3 +101,4 @@ const sourceNodes = async ({ actions }) => {
 
 exports.sourceNodes = sourceNodes
 exports.onCreateNode = onCreateNode
+exports.onPreExtractQueries = onPreExtractQueries
