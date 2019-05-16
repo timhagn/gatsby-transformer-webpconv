@@ -1,10 +1,7 @@
-# gatsby-transformer-webpconv (temp name)
+# gatsby-transformer-webpconv (DEPRECATED)
 
-This transformer shall interact with another plugin I just develop pertaining 
-GIFs and return a fixed / fluid structure like `gatsby-transformer-sharp`.
+This was an example transformer to interact with another plugin I develop 
+pertaining GIFs and return a fixed / fluid structure like `gatsby-transformer-sharp`.
 
-Any help would be wholeheartedly appreciated!
-
-P.S.: "-webpconv" is a development name, I'm open for suggestions. Though 
-"-gif2webp" just sounds a little lame - what do you think (as "gifme" is already 
-a thing ; )?
+Both are now available under a new name in a [`lerna`](https://lerna.js.org/)
+managed monorepo over at [`gatsby-giffit`](https://github.com/timhagn/gatsby-giffit)!
